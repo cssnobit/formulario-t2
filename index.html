@@ -26,7 +26,62 @@
                     <input type="email" name="email" id="email" placeholder="Digite seu email">
                 </div>
 
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+
             </fieldset>
+
+            <fieldset>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado">
+                    <option value=""></option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                    <option value="PR">PR</option>
+                    <option value="MA">MA</option>
+                </select>
+
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento">
+
+                <label for="foto">Selecione uma foto:</label>
+                <input type="file" name="foto" id="foto" accept="image/png, image/jpeg, doc/pdf">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Você é um robô?</legend>
+                <input type="radio" name="robo" id="sim">
+                <label for="sim">Sou um robô</label>
+
+                <input type="radio" name="robo" id="nao">
+                <label for="nao">Não sou um robô</label>
+
+                <input type="radio" name="robo" id="talvez">
+                <label for="talvez">Talvez eu seja um robô</label>
+
+                <img src="https://i.pinimg.com/originals/30/8d/b0/308db04e95b9502766a445fa8c9537be.png" alt="imagem de um robô" width="100">
+            </fieldset>
+
+            <div>
+                <input type="checkbox" name="acordo" id="acordo">
+                <label for="acordo">Declaro que não sou um robô e permito que espalhem os meus dados pela a internet.</label>
+            </div>
+
+            <input type="submit" value="Enviar">
+
+            <button type="submit">Enviar</button>
+
+            <button type="reset">Resetar</button>
+
+            <button>Enviar</button>
+
         </form>
     </main>
 </body>
